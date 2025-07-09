@@ -1,0 +1,40 @@
+/* Apply a clean background and center everything */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #d5e1ef;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+/* Container for the card */
+.qr-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Image styling */
+.qr-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Heading and paragraph spacing */
+.qr-card h1 {
+  font-size: 20px;
+  margin: 15px 0 10px;
+  color: #1f3251;
+}
+
+.qr-card p {
+  font-size: 14px;
+  color: #7b879d;
+  padding: 0 10px;
+}
